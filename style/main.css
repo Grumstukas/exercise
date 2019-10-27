@@ -1,0 +1,87 @@
+body{
+    background-color: #d8fbbb;
+}
+
+.section{
+    display: inline-block;
+    float: left;
+    width: 800px;
+    margin: 50px calc((100% - 800px) / 2);
+    border: 1px solid seagreen;
+    background-color: cornsilk;
+    padding: 30px 0;
+}
+.section > .name {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 100%;
+    color: darkgreen;
+    margin: 0 0 15px 0;
+}
+
+.section > form {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.section > form > .input {
+    display: inline-block;
+    float: left;
+    margin: 10px calc((100% - 280px) / 2);
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.section_write > form > .radio,
+.section_write > form > .file_name,
+.section_write > form > .file_array,
+.section_give > form > .radio,
+.section_give > form > .file_name,
+.section_give > form > .file_array,
+.section_read > form > .file_name
+{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    /*margin: 5px calc((100% - 280px) / 2);*/
+    text-align: center;
+}
+
+
+.section_write > form > .file_name > input,
+.section_write > form > .file_array > textarea,
+.section_write > form > .file_array > label,
+.section_give > form > .file_name > input,
+.section_give > form > .file_array > textarea,
+.section_give > form > .file_array > label,
+.section_read > form > .file_name > input,
+.section_read > form > .file_array > label
+{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin: 5px 25%;
+    text-align: center;
+}
+
+
+.section_write > form > .file_array > textarea,
+.section_give > form > .file_array > textarea
+
+{
+    text-align: left;
+}
+
+.section > form > .input > input {
+    size: 20px;
+}
+
+.section > form > button {
+    display: inline-block;
+    margin: 10px calc((100% - 100px) / 2);
+    font-weight: bold;
+}

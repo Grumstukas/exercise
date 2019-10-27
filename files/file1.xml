@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<items>
+  <item>
+    <first_name>Kiestis</first_name>
+    <age>29</age>
+    <gender>male</gender>
+  </item>
+  <item>
+    <first_name>Vytska</first_name>
+    <age>32</age>
+    <gender>male</gender>
+  </item>
+  <item>
+    <first_name>Karina</first_name>
+    <age>25</age>
+    <gender>female</gender>
+  </item>
+  <item>
+    <first_name>Leonas</first_name>
+    <age>29</age>
+    <gender>male</gender>
+  </item>
+  <item>
+    <first_name>'ABCABC'</first_name>
+    <age>123</age>
+    <gender>'odhfakbfkahs'</gender>
+  </item>
+  <item>
+    <first_name>'Karina'</first_name>
+    <age>25</age>
+    <gender>'female'</gender>
+  </item>
+</items>
